@@ -48,11 +48,7 @@ class DingDingMessage(NotifyPlugin):
         data = {
             "msgtype": "markdown",
             "markdown": {
-                "title": '{project_name}:{level}'.format(
-                    project_name=project,
-                    level=level,
-                ),
-                "text": '''## {project_name}@{server_name}:{level}
+                "content": '''## {project_name}@{server_name}:{level}
 {msg}
 > [view]({link})
                 '''.format(
