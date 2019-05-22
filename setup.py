@@ -17,7 +17,7 @@ setup(
     version='0.1.2',
     author='Zhang Yunyu',
     author_email='leanderztj@gmail.com',
-    url='https://github.com/L3T/sentry-dingding',
+    url='https://github.com/yxls123123/sentry-dingding',
     description='A Sentry extension which integrates with DingDing.',
     long_description=__doc__,
     packages=find_packages(exclude=['tests']),
